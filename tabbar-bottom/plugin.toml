@@ -1,0 +1,6 @@
+schema = 1
+id = "tabbar-bottom"
+name = "Tab bar at bottom"
+version = "0.1.0"
+description = "Moves the tab bar to the bottom of the window."
+window = "window.luau"
