@@ -1,0 +1,6 @@
+schema = 1
+id = "nvim-scrollback"
+name = "Scrollback in nvim"
+version = "0.1.0"
+description = "Opens a pane's scrollback in nvim instead of the system editor."
+window = "window.luau"
