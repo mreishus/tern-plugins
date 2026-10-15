@@ -1,6 +1,6 @@
 schema = 1
 id = "tabbar-bottom"
 name = "Tab bar at bottom"
-version = "0.2.0"
+version = "0.3.0"
 description = "Moves the tab bar to the bottom of the window (tiles, studio, float)."
 window = "window.luau"

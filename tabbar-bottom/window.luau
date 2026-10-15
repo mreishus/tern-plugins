@@ -19,6 +19,22 @@ html.tabs-h:is(.lay-tiles, .lay-studio, .lay-float) {
 	&.tn-status {
 		--tbb-status: 26px;
 	}
+
+	/* The strip left at the top drags the window. #tn-band is Tern's own
+	   drag band, normally shown only for auto-hiding vertical tabs. */
+	#tn-band {
+		display: block;
+		position: fixed;
+		z-index: 11;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: var(--tbb-top);
+		-webkit-app-region: drag;
+	}
+	&.lay-studio.dense-islands #tn-band {
+		height: calc(var(--tbb-top) - 4px);
+	}
 }
 
 /* Tiles: #panel sits between the bars and its stage fills it. */
